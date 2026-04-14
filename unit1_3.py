@@ -1,0 +1,1 @@
+m=[float(input()) for _ in range(4)];t=sum(m);p=t/4;g='A' if p>=75 else 'B' if p>=60 else 'C';print(t,p,g)

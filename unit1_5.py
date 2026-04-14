@@ -1,0 +1,1 @@
+l=[int(input()) for _ in range(10)];o=[x for x in l if x%2==1];print(max(o) if o else 'No odd')
